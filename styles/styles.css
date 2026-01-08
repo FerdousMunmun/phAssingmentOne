@@ -280,3 +280,62 @@ doubleBtntwo:hover{
     margin-right: 12px;
     vertical-align:middle;
 }
+
+#ready-section{
+    padding: 120px;
+}
+
+.ready-content{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    text-align: center;
+}
+
+.ready-content h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #001931;
+    margin-bottom: 16px;
+    padding-top: 80px ;
+}
+.ready-content h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.ready-btn{
+      margin-top: 16px;
+  margin-bottom: 24px;
+    padding: 12px 16px;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;;
+}
+
+.ready-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.ready-btn:hover{
+    background-color: #36774a;
+}
+.ready-btn img{
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.ready-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #627382;
+    padding-top: 60px;
+    padding-bottom: 80px;
