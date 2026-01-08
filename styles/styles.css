@@ -79,14 +79,13 @@ nav .nav-btn .btn:hover{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    /* padding-top: 80px;
-    padding-bottom: 800px; */
-    border: 1px solid red;
+    
+    
 }
 
 #banner .banner-content{
    width: 85%;
-    max-width: 1367px;
+    max-width: 1360px;
     margin: 0 auto;
     align-items: center;
     padding-top: 80px;
@@ -178,4 +177,106 @@ doubleBtntwo:hover{
 .doubleBtntwo img{
     margin-left: 8px;
     vertical-align: middle;
+}
+
+#fail-section{
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 600px;
+   
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.fail-heading h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.fail-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #001931;
+    line-height: 20px;
+    max-width: 670px;
+    margin: 0 auto;
+}
+.fail-card{
+    width: 85%;
+    max-width: 1360px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+    margin-left: auto;
+}
+.card-text{
+    width: 332px;
+    height: 300px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    padding: 60px;
+    text-align: center;
+    
+}
+
+.card-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 12px;
+}
+#brain-section{
+    padding: 120px;
+}
+ .brain-content{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brain-img{
+    width: 600px;
+}
+.brain-text{
+    width: 540px;
+}
+.brain-text h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.brain-text h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    line-height: 20px;
+}
+
+.list{
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #001931;
+    line-height: 30px;
+    list-style: none;
+}
+
+.list img{
+    margin-right: 12px;
+    vertical-align:middle;
 }
