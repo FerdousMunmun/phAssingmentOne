@@ -13,6 +13,8 @@
 }
 
 /* main style */
+/* header part start */
+
 header {
     background-color: #FFFFFF;
     padding-top: 18px;
@@ -75,7 +77,7 @@ nav .nav-btn .btn {
 nav .nav-btn .btn:hover {
     background-color: #36774a;
 }
-
+/* Banner part Start */
 
 #banner {
     width: 100%;
@@ -149,6 +151,8 @@ nav .nav-btn .btn:hover {
     color: #FFFFFF;
 }
 
+
+
 #banner .banner-content .banner-text {
     font-size: 18px;
     font-weight: 400;
@@ -205,6 +209,8 @@ doubleBtntwo:hover {
     margin-left: 8px;
     vertical-align: middle;
 }
+
+/* Fail part start */
 
 #fail-section {
     background-color: #FFFFFF;
@@ -284,7 +290,7 @@ doubleBtntwo:hover {
     font-size: 35px;
     color: #FFFFFF;
 }
-
+/* Brain part start */
 #brain-section {
     padding: 80px;
 
@@ -343,6 +349,7 @@ doubleBtntwo:hover {
     vertical-align: middle;
 }
 
+/* Ready part star */
 #ready-section {
     padding: 80px;
 }
@@ -406,7 +413,7 @@ doubleBtntwo:hover {
     padding-top: 60px;
     padding-bottom: 80px;
 }
-
+/* footer part start */
 footer {
     background-color: #001931;
     padding: 40px 0;
