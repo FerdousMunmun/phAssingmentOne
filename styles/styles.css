@@ -250,6 +250,24 @@ doubleBtntwo:hover{
     color: #001931;
     margin-bottom: 12px;
 }
+
+
+
+.icon-box{
+  width: 70px;
+  height: 70px;
+  background: #F95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin: 0 auto;
+}
+
+.icon-box i{
+  font-size: 35px;
+  color: #FFFFFF;
+}
 #brain-section{
     padding: 80px;
    
@@ -398,10 +416,28 @@ footer{
     
 }
 
-.social-part ul li a i{
-    font-size: 16px;
-    color: #FFFFFF;
-    cursor: pointer;
+.social-icons{
+  display: flex;
+  gap: 15px;
+  justify-content: center; 
+  align-items: center;
+}
+
+.social-icons .icon{
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-icons .icon i{
+  font-size: 16px;
+  color: #000;
 }
 
 .footer-text{
