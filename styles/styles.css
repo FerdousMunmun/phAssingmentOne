@@ -83,9 +83,12 @@ nav .nav-btn .btn:hover{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+  
     
     
 }
+
+
 
 #banner .banner-content{
    width: 85%;
@@ -198,7 +201,6 @@ doubleBtntwo:hover{
     max-width: 1600px;
     margin: 0 auto;
     height: 600px;
-   
     text-align: center;
     padding-top: 80px;
     
@@ -221,10 +223,12 @@ doubleBtntwo:hover{
     width: 85%;
     max-width: 1360px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
     gap: 24px;
+    
     margin-top: 48px;
-    margin-left: auto;
+    
 }
 .fail-card .card-text:hover{
     box-shadow: 0px 4px 15px rgba(70, 145, 101, 0.2);
@@ -247,9 +251,11 @@ doubleBtntwo:hover{
     margin-bottom: 12px;
 }
 #brain-section{
-    padding: 120px;
+    padding: 80px;
+   
 }
  .brain-content{
+    
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
@@ -299,7 +305,7 @@ doubleBtntwo:hover{
 }
 
 #ready-section{
-    padding: 120px;
+    padding: 80px;
 }
 
 .ready-content{
