@@ -1,39 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
+
 /* shared style */
 
-.font-inter{
+.font-inter {
     font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-optical-sizing: auto;
 }
 
 /* main style */
-header{
+header {
     background-color: #FFFFFF;
     padding-top: 18px;
 }
 
-nav{
+nav {
     width: 67%;
     max-width: 1067px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    
+
 }
-.logo{
+
+.logo {
     width: 30%;
     margin-top: 16px;
 }
 
-    
-    
 
-nav .menu{
+
+
+nav .menu {
     width: 40%;
     display: flex;
     list-style: none;
@@ -42,8 +44,8 @@ nav .menu{
     text-align: center;
 }
 
-nav ul li a{
-    
+nav ul li a {
+
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -52,13 +54,14 @@ nav ul li a{
     gap: 20px;
     cursor: pointer;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #d1bebe;
 }
 
-nav .nav-btn .btn{
-   margin-top: 15px;
-   margin-right: 10px;
+nav .nav-btn .btn {
+    margin-top: 15px;
+    margin-right: 10px;
     padding: 12px 16px;
     background-color: #469165;
     border: none;
@@ -69,12 +72,12 @@ nav .nav-btn .btn{
     cursor: pointer;
 }
 
-nav .nav-btn .btn:hover{
+nav .nav-btn .btn:hover {
     background-color: #36774a;
 }
 
 
-#banner{
+#banner {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
@@ -83,82 +86,87 @@ nav .nav-btn .btn:hover{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-  
-    
-    
+
+
+
 }
 
 
 
-#banner .banner-content{
-   width: 85%;
+#banner .banner-content {
+    width: 85%;
     max-width: 1360px;
     margin: 0 auto;
     align-items: center;
     padding-top: 80px;
     padding-bottom: 800px;
-    
-}
-.banner-btn{
-    background: #FFFFFF;
-      padding: 8px 18px 12px;
-      border-radius: 1000px;
-      font-size: 16px;
-      font-weight: 600;
-      color: #469165;
-      margin-bottom: 22px;
-      display: inline-block;
-      border: 1px solid rgba(255,255,255,0.18);
-      gap: 6px;
-      cursor: pointer;
+
 }
 
-.banner-btn:hover{
+.banner-btn {
+    background: #FFFFFF;
+    padding: 8px 18px 12px;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    margin-bottom: 22px;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    gap: 6px;
+    cursor: pointer;
+}
+
+.banner-btn:hover {
     background-color: #ffffffb6;
 }
-.banner-btn img{
+
+.banner-btn img {
     margin-right: 10px;
     vertical-align: middle;
 }
 
 
- .banner-title{
-    margin: 0;                 
-  padding: 0;
-  font-size: 71px;
-  font-weight: 800;          
-  line-height: 1.1;          
-  text-align: center;
+.banner-title {
+    margin: 0;
+    padding: 0;
+    font-size: 71px;
+    font-weight: 800;
+    line-height: 1.1;
+    text-align: center;
 }
-.banner-title span{
-  display: block;            
-  font-weight: inherit;      
+
+.banner-title span {
+    display: block;
+    font-weight: inherit;
 }
-.color-green{
+
+.color-green {
     color: #469165;
 }
-.color-white{
+
+.color-white {
     color: #FFFFFF;
 }
 
-#banner .banner-content .banner-text{
+#banner .banner-content .banner-text {
     font-size: 18px;
     font-weight: 400;
-   color: #FFFFFF;
-    line-height:24px;
+    color: #FFFFFF;
+    line-height: 24px;
     max-width: 670px;
     margin: 0 auto;
     padding-top: 132px;
 }
 
-#banner .banner-content .banner-doubleBtn{
+#banner .banner-content .banner-doubleBtn {
     display: flex;
     justify-content: center;
     gap: 16px;
     margin-top: 40px;
 }
 
-.doubleBtnOne{
+.doubleBtnOne {
     background-color: #469165;
     border: none;
     border-radius: 4px;
@@ -168,15 +176,17 @@ nav .nav-btn .btn:hover{
     color: #FFFFFF;
     cursor: pointer;
 }
-.doubleBtnOne:hover{
+
+.doubleBtnOne:hover {
     background-color: #36774a;
 }
-.doubleBtnOne img{
+
+.doubleBtnOne img {
     margin-left: 8px;
     vertical-align: middle;
 }
 
-.doubleBtntwo{
+.doubleBtntwo {
     background-color: transparent;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
@@ -186,16 +196,17 @@ nav .nav-btn .btn:hover{
     color: #FFFFFF;
     cursor: pointer;
 }
-doubleBtntwo:hover{
+
+doubleBtntwo:hover {
     background-color: transparent;
 }
 
-.doubleBtntwo img{
+.doubleBtntwo img {
     margin-left: 8px;
     vertical-align: middle;
 }
 
-#fail-section{
+#fail-section {
     background-color: #FFFFFF;
     width: 100%;
     max-width: 1600px;
@@ -203,15 +214,17 @@ doubleBtntwo:hover{
     height: 600px;
     text-align: center;
     padding-top: 80px;
-    
+
 }
-.fail-heading h2{
+
+.fail-heading h2 {
     font-size: 48px;
     font-weight: 800;
     color: #001931;
     margin-bottom: 16px;
 }
-.fail-heading p{
+
+.fail-heading p {
     font-size: 16px;
     font-weight: 400;
     color: #001931;
@@ -219,32 +232,35 @@ doubleBtntwo:hover{
     max-width: 670px;
     margin: 0 auto;
 }
-.fail-card{
+
+.fail-card {
     width: 85%;
     max-width: 1360px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     gap: 24px;
-    
+
     margin-top: 48px;
-    
+
 }
-.fail-card .card-text:hover{
+
+.fail-card .card-text:hover {
     box-shadow: 0px 4px 15px rgba(70, 145, 101, 0.2);
     transition: box-shadow 0.3s ease-in-out;
 }
-.card-text{
+
+.card-text {
     width: 332px;
     height: 300px;
     background-color: #F5F5F5;
     border-radius: 8px;
     padding: 60px;
     text-align: center;
-    
+
 }
 
-.card-text h3{
+.card-text h3 {
     font-size: 20px;
     font-weight: 700;
     color: #001931;
@@ -253,27 +269,29 @@ doubleBtntwo:hover{
 
 
 
-.icon-box{
-  width: 70px;
-  height: 70px;
-  background: #F95555;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.icon-box {
+    width: 70px;
+    height: 70px;
+    background: #F95555;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
 }
 
-.icon-box i{
-  font-size: 35px;
-  color: #FFFFFF;
+.icon-box i {
+    font-size: 35px;
+    color: #FFFFFF;
 }
-#brain-section{
+
+#brain-section {
     padding: 80px;
-   
+
 }
- .brain-content{
-    
+
+.brain-content {
+
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
@@ -281,34 +299,37 @@ doubleBtntwo:hover{
     justify-content: space-between;
     align-items: center;
 }
-.brain-img{
+
+.brain-img {
     width: 600px;
 }
-.brain-text{
+
+.brain-text {
     width: 540px;
 }
-.brain-text h4{
+
+.brain-text h4 {
     font-size: 16px;
     font-weight: 500;
     color: #469165;
     margin-bottom: 16px;
 }
 
-.brain-text h2{
+.brain-text h2 {
     font-size: 48px;
     font-weight: 800;
     color: #001931;
     margin-bottom: 16px;
 }
 
-.brain-text p{
+.brain-text p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
     line-height: 20px;
 }
 
-.list{
+.list {
     margin-top: 40px;
     font-size: 16px;
     font-weight: 400;
@@ -317,16 +338,16 @@ doubleBtntwo:hover{
     list-style: none;
 }
 
-.list img{
+.list img {
     margin-right: 12px;
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
-#ready-section{
+#ready-section {
     padding: 80px;
 }
 
-.ready-content{
+.ready-content {
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
@@ -334,14 +355,15 @@ doubleBtntwo:hover{
     text-align: center;
 }
 
-.ready-content h2{
+.ready-content h2 {
     font-size: 40px;
     font-weight: 800;
     color: #001931;
     margin-bottom: 16px;
-    padding-top: 80px ;
+    padding-top: 80px;
 }
-.ready-content h4{
+
+.ready-content h4 {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
@@ -349,9 +371,9 @@ doubleBtntwo:hover{
     padding-bottom: 24px;
 }
 
-.ready-btn{
-      margin-top: 16px;
-  margin-bottom: 24px;
+.ready-btn {
+    margin-top: 16px;
+    margin-bottom: 24px;
     padding: 12px 16px;
     background-color: #469165;
     border: none;
@@ -359,22 +381,25 @@ doubleBtntwo:hover{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
-    cursor: pointer;;
+    cursor: pointer;
+    ;
 }
 
-.ready-btn a{
+.ready-btn a {
     text-decoration: none;
     color: #FFFFFF;
 }
-.ready-btn:hover{
+
+.ready-btn:hover {
     background-color: #36774a;
 }
-.ready-btn img{
+
+.ready-btn img {
     margin-left: 8px;
     vertical-align: middle;
 }
 
-.ready-content p{
+.ready-content p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
@@ -382,24 +407,26 @@ doubleBtntwo:hover{
     padding-bottom: 80px;
 }
 
-footer{
+footer {
     background-color: #001931;
     padding: 40px 0;
     text-align: center;
 }
-.footer-part{
-    
-   width: 85%;
+
+.footer-part {
+
+    width: 85%;
     max-width: 1360px;
     margin: 0 auto;
     margin-top: 120px;
     margin-bottom: 164px;
     display: flex;
     justify-content: space-between;
-   align-items: center;
+    align-items: center;
 
 }
-.social-part h4{
+
+.social-part h4 {
     display: flex;
     font-size: 16px;
     font-weight: 500;
@@ -408,42 +435,50 @@ footer{
 
 }
 
-.social-part ul{
+.social-part ul {
     display: flex;
     list-style: none;
     gap: 16px;
-   
-    
+
+
 }
 
-.social-icons{
-  display: flex;
-  gap: 15px;
-  justify-content: center; 
-  align-items: center;
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
 }
 
-.social-icons .icon{
-  width: 40px;
-  height: 40px;
-  background: #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  transition: 0.3s;
+.social-icons .icon {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-.social-icons .icon i{
-  font-size: 16px;
-  color: #000;
+.social-icons .icon i {
+    font-size: 16px;
+    color: #000;
 }
 
-.footer-text{
+.footer-text {
     font-size: 16px;
     font-weight: 400;
     color: #FAFAFA;
-    
     margin-bottom: 30px;
+}
+
+.footer-line {
+    width: 85%;
+    max-width: 1360px;
+    border: none;
+    height: 1px;
+    background: #e5e7eb9c;
+    margin: 0 auto 24px auto;
 }
